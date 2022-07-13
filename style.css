@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background: #19a1ae;
+  background-image: url(https://cdn.glitch.global/0d04edd5-e04e-499a-9df8-65e727be3a16/bg-pattern-top.svg?v=1657722588930),
+    url(https://cdn.glitch.global/0d04edd5-e04e-499a-9df8-65e727be3a16/bg-pattern-bottom.svg?v=1657722583563);
+  background-repeat: no-repeat;
+  background-position: right 48vw bottom 48vh, left 45vw top 44vh;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-div {
+  position: relative;
+  width: 350px;
+  height: 390px;
+  background: #ffffff;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  border-radius: 15px;
+}
+
+.pattern-card {
+  background: #41cbd3;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.profile-picture {
+  width: 100px;
+  border-radius: 50%;
+  background: url(Image.png);
+  border: 5px solid #ffffff;
+}
+
+.info-div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 25%;
+}
+
+.img-div {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 22px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 8.5px;
+  margin-bottom: 13px;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #2e3349;
+}
+
+.age {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #6b7082;
+}
+
+.place {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #6b7082;
+  margin-bottom: 28px;
+}
+
+hr {
+  width: 350px;
+  height: 1px;
+  background: #e8e9ec;
+  margin-bottom: 24px;
+}
+
+.stats-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 5px;
+  column-gap: 45px;
+}
+
+.number-info {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #2e3349;
+}
+
+.stats-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #6b7082;
+}
